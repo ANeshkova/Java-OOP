@@ -1,0 +1,13 @@
+package sayHello;
+
+public class Chinese extends PersonImpl implements Person {
+
+    protected Chinese(String name) {
+        super(name);
+    }
+
+    @Override
+    public String sayHello() {
+        return "Djydjybydjy";
+    }
+}
